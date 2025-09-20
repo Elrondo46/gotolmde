@@ -18,4 +18,5 @@ echo "If no errors... That's complete"
 sleep 2
 echo "Post-Concerting config"
 rm /etc/network/interfaces
+cp official-package-repositories.pref /etc/apt/preferences.d/official-package-repositories.pref
 echo "Finished. Can reboot now"
