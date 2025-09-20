@@ -1,0 +1,7 @@
+deb https://mirror.cyberbits.eu/linuxmint/packages gigi main upstream import backport 
+
+deb http://ftp.fr.debian.org/debian trixie main contrib non-free non-free-firmware
+deb http://ftp.fr.debian.org/debian trixie-updates main contrib non-free non-free-firmware
+deb http://security.debian.org/ trixie-security main contrib non-free non-free-firmware
+
+deb http://ftp.fr.debian.org/debian trixie-backports main contrib non-free non-free-firmware
