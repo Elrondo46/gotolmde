@@ -6,9 +6,9 @@ apt install -y gpg
 
 #Removing old sources
 rm /etc/apt/sources.list
-rm /etc/apt/trusted.gpg.d
+rm -r /etc/apt/trusted.gpg.d
 #Installing new keys and sources
-cp -r trusted.gpg.d /etc/apt/trusted.gpg.d
+cp -r trusted.gpg.d /etc/apt/
 cp official-package-repositories.list /etc/apt/sources.list.d/official-package-repositories.list
 echo "Converting Now..."
 sleep 3
