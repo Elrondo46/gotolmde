@@ -14,7 +14,7 @@ echo "Converting Now..."
 sleep 3
 apt update && apt upgrade -y
 xargs apt-get install -y < list-packages-mint
-echo "If no errors... That's complete
+echo "If no errors... That's complete"
 sleep 2
 echo "Post-Concerting config"
 rm /etc/network/interfaces
