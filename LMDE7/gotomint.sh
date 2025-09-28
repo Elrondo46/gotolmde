@@ -19,6 +19,6 @@ sleep 2
 echo "Post-Concerting config"
 rm /etc/network/interfaces
 cp official-package-repositories.pref /etc/apt/preferences.d/official-package-repositories.pref
-apl clean
+apt clean
 apt update
 echo "Finished. Can reboot now"
